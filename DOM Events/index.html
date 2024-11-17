@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+
+<body>
+    <Header>
+        <h1>Welcome to Events</h1>
+        <button onclick="change()">Click</button>
+        <button id="dbl">Double Click</button>
+    </Header>
+    <main>
+        <p onmouseover="myFun1(this)" onmouseout="myFun2(this)">Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Nostrum explicabo</p>
+
+        <p id="mypara">Events Paramiter with ID</p>
+        <p onclick="myFun3">Events Paramiter</p>
+
+        <section>
+            <ul>
+                <li>Applle</li>
+                <li>Orange</li>
+                <li>Multa</li>
+                <li>Dragon</li>
+            </ul>
+            <span></span>
+        </section>
+
+    </main>
+    <script src="events.js"></script>
+</body>
+
+</html>
